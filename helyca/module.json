@@ -1,0 +1,18 @@
+{
+  "id": "fpilot-helyca-custom-hooks",
+  "title": "Helyca Custom Hooks",
+  "description": "A simple, homemade module to override DND5e config for Helyca",
+  "authors": [
+    {
+      "name": "FalconPilot"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "helyca.js"
+  ]
+}
