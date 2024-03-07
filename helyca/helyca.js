@@ -89,4 +89,8 @@ Hooks.once('init', () => {
   CONFIG.DND5E.consumableTypes.gadget = {
     label: 'Gadget',
   }
+
+  CONFIG.DND5E.consumableTypes.drug = {
+    label: 'Drug',
+  }
 })
