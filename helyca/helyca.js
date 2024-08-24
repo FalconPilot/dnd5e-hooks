@@ -93,4 +93,24 @@ Hooks.once('init', () => {
   CONFIG.DND5E.consumableTypes.drug = {
     label: 'Drug',
   }
+
+  // Redefine languages
+  CONFIG.DND5E.languages.standard.children = {
+    common: 'Common',
+    dwarvish: 'Dwarvish',
+    elvish: 'Elvish',
+    goblin: 'Goblin',
+    orc: 'Orc',
+  }
+
+  CONFIG.DND5E.languages.exotic.children = {
+    abyssal: 'Abyssal',
+    celestial: 'Celestial',
+    deep: 'Deep Speech',
+    draconic: 'Draconic',
+    giant: 'Giant',
+    infernal: 'Infernal',
+    sylvan: 'Sylvan',
+    undercommon: 'Undercommon',
+  }
 })

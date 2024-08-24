@@ -1,0 +1,8 @@
+#currency-header > #currency-name > span,
+#currency-header > #currency-name > a {
+  display: none;
+}
+
+#currency-header > #currency-name:before {
+  content: 'Money';
+}

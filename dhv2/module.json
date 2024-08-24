@@ -1,0 +1,21 @@
+{
+  "id": "fpilot-dhv2-custom-hooks",
+  "title": "Stargazers Custom Hooks",
+  "description": "A simple, homemade module to override DHV2 config for FoundryVTT",
+  "authors": [
+    {
+      "name": "FalconPilot"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "esmodules": [
+    "dhv2.js"
+  ],
+  "styles": [
+    "dhv2.css"
+  ]
+}

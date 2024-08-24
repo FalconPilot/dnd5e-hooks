@@ -1,0 +1,11 @@
+.sidebar-tab .directory-list .directory-item img {
+  object-fit: contain;
+}
+
+.playlists-sidebar h4 {
+  height: auto;
+}
+
+.sheet-body.stash .encumbrance {
+  display: none;
+}

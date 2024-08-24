@@ -1,0 +1,28 @@
+{
+  "id": "fpilot-wfrp4-custom",
+  "title": "WFRP4 Custom Hooks",
+  "description": "A simple, homemade module to override some WFRP4 settings",
+  "authors": [
+    {
+      "name": "FalconPilot"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "wfrp4.js"
+  ],
+  "styles": [
+    "wfrp4.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "./lang/en.json"
+    }
+  ]
+}
